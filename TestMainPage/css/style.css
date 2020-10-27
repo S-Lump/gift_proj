@@ -1,0 +1,73 @@
+html {
+
+    font-size: 1em;
+    line-height: 1.4;
+
+}
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: center;
+    position: relative;
+    padding-top: 3em;
+    color: white;
+}
+.row a:link{
+    text-decoration: none;
+    color: white;
+}
+a:link{
+    text-decoration: none;
+}
+.rows a:hover{
+    background: #F2F8FD;
+}
+.rows a{
+    color: black;
+}
+.rows{
+    display:flex;
+    font-family: 'Open Sans', sans-serif;
+    size: 24px;
+}
+.rows a{
+    padding: 1vw 3vw;
+}
+.row_cell{
+    flex: 1;
+    padding: 1em 2em;
+}
+.row_cell__3{
+    flex:3;
+    text-align: center;
+}
+
+.main_block{
+    background-image: url("https://cdn.pixabay.com/photo/2019/10/02/03/49/christmas-gift-pattern-4519900_960_720.jpg");
+    margin-bottom: 2em;
+}
+.string{
+ display: flex;
+    margin-left: 3em;
+    margin-right: 3em;
+
+}
+.block{
+    flex: 1;
+    margin-top: 5em;
+    text-align: center;
+    margin-left: 3em;
+    margin-right: 3em;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.under_link{
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
