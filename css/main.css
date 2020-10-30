@@ -67,16 +67,16 @@ a:link{
 }
 
 .i1{
-background-image: url(/img/Man.jpg);
+background-image: url(../img/Man.jpg);
 }
 .i2{
-background-image: url("/img/Woman.jpg");
+background-image: url(../img/Woman.jpg);
 }
 .i3{
-  background-image: url("http://xvatit.com/uploads/posts/2015-01/thumbs/1422015056_5-let.jpg");
+  background-image: url(../img/Kid.jpg);
 }
 .i4{
-  background-image:  url("https://www.spletnik.ru/img/2020/08/olga/20202908-valeriyaprigozhin-post.jpg");
+  background-image:  url(../img/Maried.jpg);
 }
 
 .aboutUS{
@@ -147,6 +147,14 @@ background-image: url("/img/Woman.jpg");
 }
 .logo a{
   padding: 4vw;
+}
+.logo img{
+ height: 10vw;
+  border-radius: 50%;
+}
+.logo a:hover{
+  color: #E1E8EE;
+  opacity: 70%;
 }
 .contact_text{
   flex:1;
