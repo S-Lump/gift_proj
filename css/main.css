@@ -67,7 +67,7 @@ a:link{
 }
 
 .i1{
-background-image: url("/img/Man.jpg");
+background-image: url(/img/Man.jpg);
 }
 .i2{
 background-image: url("/img/Woman.jpg");
