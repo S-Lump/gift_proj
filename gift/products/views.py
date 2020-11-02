@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from django.views.generic import ListView 
+from django.views.generic import ListView, DetailView
 
 from .models import Products, Category
 
@@ -35,3 +35,12 @@ def get_category(request, category_id):
     categories = Category.objects.all()
     category = Category.objects.get(pk=category_id)
     return render(request, 'products/category.html', {'products': products, 'categories': categories, 'category': category})
+
+
+class Product(DetailView):
+    model = Products
+    template_name = 'products/detail.html'
+    context_object_name = 'products'
+    
+    # def get_queryset(self, slug):
+    #     return Products.objects.get(slug=slug)
