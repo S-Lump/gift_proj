@@ -12,7 +12,11 @@
 }
 
 html {
-    font-family: "Arial", serif;
+    font-family: "Roboto", serif;
+}
+
+p{
+    font-family: "Roboto Light", Serif;
 }
 
 a {
