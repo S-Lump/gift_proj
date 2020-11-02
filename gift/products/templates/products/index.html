@@ -1,16 +1,20 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}
-    {{title}}
+GIFT PROJECT
 {% endblock %}
 
 {% block content %}
-    {% for item in products %}
-    <p>{{ item.title }}</p>
-    <p>{{ item.description }}</p>
-    <p><img src="{{ item.photo.url }}" alt="" width="200"></p>
-    <p>{{ item.price }}</p>
-    <p>{{ item.category }}</p>
-    <hr>
-    {% endfor %}
+    <div class="box">
+        {% for item in categories %}
+            <div class="box__item"><a href="{{ item.get_absolute_url }}">{{ item.title }}</a></div>
+        {% endfor %}
+    </div>
+    
+        
+    
+    <!-- <div class="box__item for-girl"></div>
+    <div class="box__item for-children"></div>
+    <div class="box__item for-family"></div> -->
 {% endblock %}
