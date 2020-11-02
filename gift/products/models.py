@@ -12,6 +12,9 @@ class Products(models.Model):
     slug = models.SlugField(unique=True, verbose_name='Слаг')
     category = models.ForeignKey('Category', on_delete=models.PROTECT, blank=True, null=True)
 
+    def get_absolute_url(self):
+        return reverse_lazy('products', kwargs={'slug': self.slug})
+
     def __str__(self):
         return self.title
 
