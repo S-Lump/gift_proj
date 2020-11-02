@@ -12,12 +12,11 @@
 }
 
 html {
-    font-family: "Roboto", serif;
+    font-family: "Roboto", sans-serif;
 }
 
-p{
-    font-family: 'Roboto', sans-serif;
-}
+
+
 
 a {
     text-decoration: none;
