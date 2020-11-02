@@ -43,7 +43,7 @@
 }
 
 .box__item a:hover {
-    color: var(--yellow);
+    color: var(--white);
     background-color: rgba(0, 0, 0, 0.0);
 }
 
