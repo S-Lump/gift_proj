@@ -40,7 +40,7 @@ def get_category(request, category_id):
 class Product(DetailView):
     model = Products
     template_name = 'products/detail.html'
-    context_object_name = 'products'
+    context_object_name = 'product'
     
     # def get_queryset(self, slug):
     #     return Products.objects.get(slug=slug)
