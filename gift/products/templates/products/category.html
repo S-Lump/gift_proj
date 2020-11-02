@@ -11,6 +11,7 @@
     <p><img src="{{ item.photo.url }}" alt="" width="200"></p>
     <p>{{ item.price }}</p>
     <p>{{ item.category }}</p>
+    <p>Detail: <a href="{{ item.get_absolute_url }}">click</a></p>
     <hr>
     {% endfor %}
 {% endblock %}
