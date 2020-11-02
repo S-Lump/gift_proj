@@ -47,6 +47,19 @@
     background-color: rgba(0, 0, 0, 0.0);
 }
 
+.item_block{
+    display: flex;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.item_image{
+    flex: 1;
+}
+
+.item_info{
+    flex: 1;
+}
+
 @media (max-width: 850px) {
     .box {
         flex-wrap: nowrap;

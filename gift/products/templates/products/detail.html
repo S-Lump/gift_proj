@@ -6,9 +6,15 @@ Detail
 {% endblock %}
 
 {% block content %}
-<p>{{ product.title }}</p>
-<p>{{ product.description }}</p>
-<p><img src="{{ product.photo.url }}" alt="" width="300"></p>
-<p>{{ product.price }}</p>
-<p>{{ product.category }}</p>
+
+<div class = "item_block">
+    <img class="item_image" src="{{ product.photo.url }}" alt="" width="300">
+    <div class="item_info">
+        <h1>{{ product.title }}</h1>
+    <p>{{ product.description }}</p>
+    <p>{{ product.price }}</p>
+    <p>{{ product.category }}</p>
+    </div>
+</div>
+
 {% endblock %}
