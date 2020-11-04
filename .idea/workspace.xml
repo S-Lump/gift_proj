@@ -12,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/gift/gift/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/gift/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/gift/static/css/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/category.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +98,7 @@
       <workItem from="1604142487620" duration="267000" />
       <workItem from="1604258739506" duration="27000" />
       <workItem from="1604294552574" duration="12532000" />
-      <workItem from="1604508233775" duration="5754000" />
+      <workItem from="1604508233775" duration="8201000" />
     </task>
     <task id="LOCAL-00001" summary="Little change color (test)">
       <created>1604295344945</created>
@@ -162,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604512531915</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="change design">
+      <created>1604514588229</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604514588230</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +185,8 @@
     <MESSAGE value="index.html changes" />
     <MESSAGE value="add few colors" />
     <MESSAGE value="change products.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="change products.css" />
+    <MESSAGE value="change design" />
+    <option name="LAST_COMMIT_MESSAGE" value="change design" />
   </component>
   <component name="WindowStateProjectService">
     <state x="106" y="39" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604142664211">
@@ -188,10 +197,10 @@
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state x="432" y="89" key="#com.intellij.ide.macro.MacrosDialog/0.0.1304.768@0.0.1304.768" timestamp="1604142677137" />
-    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1604512529309">
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1604514585865">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1304.768/1366.0.1280.994@0.0.1304.768" timestamp="1604512529309" />
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1304.768/1366.0.1280.994@0.0.1304.768" timestamp="1604514585865" />
     <state x="278" y="0" key="CommitChangelistDialog2/0.0.1304.768@0.0.1304.768" timestamp="1604319381673" />
     <state x="432" y="139" key="FileChooserDialogImpl" timestamp="1604258764960">
       <screen x="0" y="0" width="1304" height="768" />

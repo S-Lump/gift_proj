@@ -132,13 +132,18 @@
     padding: 12px 30px;
     transition: all .5s;
 }
-
-
-
-
 .products__item_link:hover{
     box-shadow: 0 0 25px rgba(0,0,0,0.5);
     border-radius: 50px;
     transition:box-shadow 0.5s;
 }
 
+@media (max-width: 850px) {
+    .list-of-products {
+        flex-direction: column;
+    }
+    .products__item{
+        height: 50%;
+        max-width: 300px;
+    }
+}

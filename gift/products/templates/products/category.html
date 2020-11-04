@@ -21,6 +21,7 @@
         <div class="container">
             <div class="list-of-products">
                 {% for item in products %}
+
                 <a href="{{item.get_absolute_url}}" class = "products__item_link">
                     <div class="products__item">
                         <div class="products__title">{{ item.title }}</div>
@@ -31,6 +32,7 @@
                         <div class="products__info"></div>
                     </div>
                 </a>
+
                 {% endfor %}
             </div>
         </div>
