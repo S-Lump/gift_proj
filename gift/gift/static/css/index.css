@@ -54,10 +54,12 @@
     font-size: 150%;
     padding-right: 5%;
     padding-left: 5%;
+
 }
 .AboutUs h2{
     text-align: center;
     font-size: 300%;
+
 }
 
 @media (max-width: 850px) {
