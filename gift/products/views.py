@@ -15,13 +15,7 @@ from .models import Products, Category
 #         context = super().get_context_data(**kwargs)
 #         context['title'] = 'Главная'
 
-# def index(request):
-#     products = Products.objects.all()
-#     context = {
-#         'products': products,
-#         'title': 'List of products',
-#     }
-#     return render(request, 'products/index.html', context=context)
+
 
 
 class Home(ListView):
