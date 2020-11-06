@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated />
   </component>
@@ -8,11 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gift/products/templates/products/popular.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/products.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/category.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +36,13 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,6 +53,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
@@ -44,6 +67,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Python 3.7" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,7 +126,8 @@
       <workItem from="1604142487620" duration="267000" />
       <workItem from="1604258739506" duration="27000" />
       <workItem from="1604294552574" duration="12532000" />
-      <workItem from="1604508233775" duration="8201000" />
+      <workItem from="1604508233775" duration="9372000" />
+      <workItem from="1604653657849" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="Little change color (test)">
       <created>1604295344945</created>
@@ -170,11 +199,30 @@
       <option name="project" value="LOCAL" />
       <updated>1604514588230</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Говноадаптив под мобилки">
+      <created>1604517018780</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604517018780</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Little change color (test)" />
@@ -186,7 +234,8 @@
     <MESSAGE value="add few colors" />
     <MESSAGE value="change products.css" />
     <MESSAGE value="change design" />
-    <option name="LAST_COMMIT_MESSAGE" value="change design" />
+    <MESSAGE value="Говноадаптив под мобилки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Говноадаптив под мобилки" />
   </component>
   <component name="WindowStateProjectService">
     <state x="106" y="39" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604142664211">
@@ -197,18 +246,19 @@
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state x="432" y="89" key="#com.intellij.ide.macro.MacrosDialog/0.0.1304.768@0.0.1304.768" timestamp="1604142677137" />
-    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1604514585865">
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1604517016152">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1304.768/1366.0.1280.994@0.0.1304.768" timestamp="1604514585865" />
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1304.768/1366.0.1280.994@0.0.1304.768" timestamp="1604517016152" />
     <state x="278" y="0" key="CommitChangelistDialog2/0.0.1304.768@0.0.1304.768" timestamp="1604319381673" />
     <state x="432" y="139" key="FileChooserDialogImpl" timestamp="1604258764960">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state x="432" y="139" key="FileChooserDialogImpl/0.0.1304.768@0.0.1304.768" timestamp="1604258764960" />
-    <state x="244" y="117" key="Vcs.Push.Dialog.v2" timestamp="1604319387039">
+    <state x="244" y="117" key="Vcs.Push.Dialog.v2" timestamp="1604517338018">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
+    <state x="244" y="117" key="Vcs.Push.Dialog.v2/0.0.1304.768/1366.0.1280.994@0.0.1304.768" timestamp="1604517338018" />
     <state x="244" y="117" key="Vcs.Push.Dialog.v2/0.0.1304.768@0.0.1304.768" timestamp="1604319387039" />
     <state x="470" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604294555725">
       <screen x="0" y="0" width="1304" height="768" />
