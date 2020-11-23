@@ -18,21 +18,21 @@
     font-family: 'Bebas Neue', cursive;
 }
 .circle{
-    width: 70em;
-    height: 70em;
+    width: 80vw;
+    height:80vw;
     background: var(--yellow);
     border-radius: 50%;
     position: absolute;
-    transform: translate(25em,-20em);
+    transform: translate(30vw,-30vw);
     z-index: -2;
 }
 .circle_light{
-    width: 130em;
-    height: 102em;
+    width: 143vw;
+    height: 126vw;
     background: var(--yellow_light);
     border-radius: 80%;
     position: absolute;
-    transform: translate(-20em,-50em);
+    transform: translate(-30vw,-60vw);
     z-index: -3;
 }
 .circle_img{
@@ -42,7 +42,7 @@
     position: absolute;
     z-index: -1;
     background-repeat: no-repeat;
-    transform: translate(13em, 24em);
+    transform: translate(20vw, 34vw);
     background-size: cover;
     border-radius: 50%;
 

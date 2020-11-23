@@ -25,12 +25,9 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="Add yellow circle">
+    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="Fucking circles&#10;I hate you">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/gift/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +72,6 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -142,7 +134,8 @@
       <workItem from="1604508233775" duration="9372000" />
       <workItem from="1604653657849" duration="1292000" />
       <workItem from="1606138058292" duration="1402000" />
-      <workItem from="1606139488607" duration="13952000" />
+      <workItem from="1606139488607" duration="14104000" />
+      <workItem from="1606158631395" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary="Little change color (test)">
       <created>1604295344945</created>
@@ -249,7 +242,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606147314928</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Fucking circles&#10;I hate you">
+      <created>1606157778862</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606157778863</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fucking circles&#10;I hate you">
+      <created>1606157783871</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1606157783871</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +288,8 @@
     <MESSAGE value="Add header in base" />
     <MESSAGE value="New branch" />
     <MESSAGE value="Add yellow circle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add yellow circle" />
+    <MESSAGE value="Fucking circles&#10;I hate you" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fucking circles&#10;I hate you" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="0" width="1072" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606138917114">
@@ -307,9 +315,10 @@
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1304.768/1366.0.1280.994@0.0.1304.768" timestamp="1604654346052" />
-    <state x="240" y="110" key="Vcs.Push.Dialog.v2" timestamp="1606147323114">
+    <state x="240" y="110" key="Vcs.Push.Dialog.v2" timestamp="1606157785528">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="240" y="110" key="Vcs.Push.Dialog.v2/0.0.1280.720/1920.0.1280.1024@0.0.1280.720" timestamp="1606157785528" />
     <state x="240" y="110" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1606147323114" />
     <state x="244" y="117" key="Vcs.Push.Dialog.v2/0.0.1304.768/1366.0.1280.994@0.0.1304.768" timestamp="1604654691569" />
     <state x="244" y="117" key="Vcs.Push.Dialog.v2/0.0.1304.768@0.0.1304.768" timestamp="1604319387039" />
