@@ -1,0 +1,31 @@
+.bottom_menu{
+    display: flex;
+    padding-top: 3.5em;
+}
+.logo{
+    flex:1;
+    text-align: left;
+    margin-left: 5em;
+}
+.menu_links{
+    display: flex;
+    flex: 1;
+    padding-right: 0.5em;
+}
+.link{
+    flex:1;
+    padding-left: 0.5em;
+
+}
+.circle{
+    width: 60em;
+    height: 60em;
+    background: var(--yellow);
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(35em,-30em);
+    overflow: hidden;
+    z-index: 4;
+}
