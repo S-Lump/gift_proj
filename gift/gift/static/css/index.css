@@ -56,10 +56,36 @@
 }
 .intro_text{
     text-wrap: normal;
-    width: 30em;
-    height: 20em;
+    width: 40vw;
+    height: 15em;
     color: var(--white);
     font-family: 'Balsamiq Sans', cursive;
-    margin-left: 8em;
-    margin-top: 10em;
+    margin-left: 7vw;
+    margin-top: 15vw;
+
+}
+.intro_text p{
+    font-size: 2vw;
+}
+
+.intro_text h2{
+    font-size: 3vw;
+}
+
+.header_line{
+    display: flex;
+    background: var(--brown);
+    height: 5vw;
+    width: 45vw;
+    border-radius: 30px;
+    position: absolute;
+    transform: translate(40vw,20vw);
+}
+.header_line a{
+    flex:1;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-top: 1.5vw;
+    font-size: 1.5vw;
 }
