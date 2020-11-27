@@ -25,7 +25,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="Circle optimization with vW">
+    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="menu line">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/gift/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/gift/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/main.css" afterDir="false" />
@@ -133,7 +133,8 @@
       <workItem from="1606138058292" duration="1402000" />
       <workItem from="1606139488607" duration="14104000" />
       <workItem from="1606158631395" duration="1041000" />
-      <workItem from="1606212412523" duration="1574000" />
+      <workItem from="1606212412523" duration="1609000" />
+      <workItem from="1606489302998" duration="2352000" />
     </task>
     <task id="LOCAL-00001" summary="Little change color (test)">
       <created>1604295344945</created>
@@ -261,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606159080930</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="menu line">
+      <created>1606214010864</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1606214010865</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +303,8 @@
     <MESSAGE value="Add yellow circle" />
     <MESSAGE value="Fucking circles&#10;I hate you" />
     <MESSAGE value="Circle optimization with vW" />
-    <option name="LAST_COMMIT_MESSAGE" value="Circle optimization with vW" />
+    <MESSAGE value="menu line" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu line" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="0" width="1072" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606138917114">
@@ -321,10 +330,10 @@
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1304.768/1366.0.1280.994@0.0.1304.768" timestamp="1604654346052" />
-    <state x="240" y="110" key="Vcs.Push.Dialog.v2" timestamp="1606157785528">
+    <state x="240" y="110" key="Vcs.Push.Dialog.v2" timestamp="1606214016340">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="240" y="110" key="Vcs.Push.Dialog.v2/0.0.1280.720/1920.0.1280.1024@0.0.1280.720" timestamp="1606157785528" />
+    <state x="240" y="110" key="Vcs.Push.Dialog.v2/0.0.1280.720/1920.0.1280.1024@0.0.1280.720" timestamp="1606214016340" />
     <state x="240" y="110" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1606147323114" />
     <state x="244" y="117" key="Vcs.Push.Dialog.v2/0.0.1304.768/1366.0.1280.994@0.0.1304.768" timestamp="1604654691569" />
     <state x="244" y="117" key="Vcs.Push.Dialog.v2/0.0.1304.768@0.0.1304.768" timestamp="1604319387039" />

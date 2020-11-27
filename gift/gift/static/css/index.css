@@ -51,7 +51,7 @@
 .wrapper{
  position: relative;
     width: 100%;
-    height: 1000px;
+    height: 90vw;
     overflow: hidden;
 }
 .intro_text{
@@ -88,4 +88,22 @@
     text-align: center;
     margin-top: 1.5vw;
     font-size: 1.5vw;
+}
+
+.header_line a:hover{
+    background: var(--brown_light);
+    border-radius: 30px;
+    margin-bottom: 1.5vw;
+    border-top: 1.5vw;
+    border-bottom: 1.5vw;
+}
+
+.footer_circle{
+    background: var(--yellow_light);
+    width: 105vw;
+    height:100vw;
+    border-radius: 45%;
+    position: absolute;
+    transform: translate(-3vw,40vw);
+    margin-top: 300px;
 }
