@@ -107,3 +107,21 @@
     transform: translate(-3vw,40vw);
     margin-top: 300px;
 }
+hr {
+ position: absolute;
+     width: 65vw;
+     height: 3px;
+    border: none;
+    background-color: var(--brown);
+    border-radius: 20px;
+    transform: translate(17vw,75vw);
+    z-index: 1;
+}
+.contact{
+    display: flex;
+    position: absolute;
+    transform: translate(17vw,75vw);
+}
+.contact p{
+    flex:1;
+}
