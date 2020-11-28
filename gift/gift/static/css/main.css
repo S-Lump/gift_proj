@@ -19,7 +19,6 @@
 
 html {
     font-family: "Roboto", sans-serif;
-
 }
 
 
@@ -27,6 +26,7 @@ html {
 
 a {
     text-decoration: none;
+    font-family:"Balsamiq Sans",bold ;
 }
 
 .container {

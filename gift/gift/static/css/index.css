@@ -114,14 +114,25 @@ hr {
     border: none;
     background-color: var(--brown);
     border-radius: 20px;
-    transform: translate(17vw,75vw);
+    transform: translate(19vw,12vw);
     z-index: 1;
 }
 .contact{
     display: flex;
     position: absolute;
-    transform: translate(17vw,75vw);
+    transform: translate(19vw,14vw);
+    width: 65vw;
+    align-items: center;
 }
-.contact p{
-    flex:1;
+.footer_link{
+    flex: 1;
+    text-decoration: none;
+    color: var(--brown);
+   border: none;
+    border: none;
+
+}
+
+.footer_link:hover{
+    background: var(--yellow);
 }
