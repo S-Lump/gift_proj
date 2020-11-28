@@ -23,11 +23,9 @@ GIFT PROJECT
     <p>Мы собрали для вас самые лучшие варианты подарков, которые точно удивят получателей</p>
 </div>
     <div class="header_line">
-        <a href="#" class="head_link">Женщине</a>
-        <a href="#">Мужчине</a>
-        <a href="#">Ребенку</a>
-        <a href="#">Для двоих</a>
-        <a href="#">Link</a>
+        {% for item in categories %}
+        <div class="head_link"><a href="{{ item.get_absolute_url }}">{{ item.title }}</a></div>
+        {% endfor %}
     </div>
 </div>
     <div class="popular">

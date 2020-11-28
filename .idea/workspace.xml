@@ -28,7 +28,6 @@
     <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="Need footer optimization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/gift/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/products/templates/products/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,6 +135,7 @@
       <workItem from="1606212412523" duration="1609000" />
       <workItem from="1606489302998" duration="4001000" />
       <workItem from="1606502873509" duration="3235000" />
+      <workItem from="1606565238631" duration="1184000" />
     </task>
     <task id="LOCAL-00001" summary="Little change color (test)">
       <created>1604295344945</created>
@@ -284,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606494189041</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="footer">
+      <created>1606565487385</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1606565487385</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +328,8 @@
     <MESSAGE value="menu line" />
     <MESSAGE value="footer circle" />
     <MESSAGE value="Need footer optimization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Need footer optimization" />
+    <MESSAGE value="footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="0" width="1072" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606138917114">

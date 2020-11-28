@@ -90,12 +90,15 @@
     font-size: 1.5vw;
 }
 
-.header_line a:hover{
+.head_link{
+    flex:1;
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+    border: 1vw;
+}
+.head_link:hover{
     background: var(--brown_light);
-    border-radius: 30px;
-    margin-bottom: 1.5vw;
-    border-top: 1.5vw;
-    border-bottom: 1.5vw;
+    border: none;
 }
 
 .footer_circle{
@@ -133,6 +136,6 @@ hr {
 
 }
 
-.footer_link:hover{
+.footer_link a:hover {
     background: var(--yellow);
 }
