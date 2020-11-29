@@ -9,9 +9,31 @@ Detail
 
 
 <div class = "item_block">
-    <img class="item_image" src="{{ product.photo.url }}" alt="" width="300">
+    <div class="wrapper">
+        <div class = "bottom_menu">
+            <div class="logo">Logo</div>
+            <div class="menu_links">
+                <div class="link">Контакты</div>
+                <div class="link">О нас</div>
+                <div class="link">Личный кабинет</div>
+            </div>
+        </div>
+        <div class = "circle"><img class="item_image" src="{{ product.photo.url }}"> </div>
+        <div class = "circle_light"></div>
+        <div class="intro_text">
+            <h2>{{product.title}}</h2>
+            <p></p>
+        </div>
+    </div>
+    <div class="popular">
+
+    </div>
+    <div class="review">
+
+    </div>
+
+
     <div class="item_info">
-        <h1>{{ product.title }}</h1>
     <p>{{ product.description }}</p>
         <div class = "product_price">
     <p>Price: {{ product.price }}

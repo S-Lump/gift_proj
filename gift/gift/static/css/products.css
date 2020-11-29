@@ -1,0 +1,62 @@
+.circle_img{
+    width: 55%;
+    height: 55%;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    transform: translate(20vw, 34vw);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.list-of-products{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    width: 100%;
+    padding-top: 50px;
+}
+.products__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 10vw;
+    height: 30vw;
+    padding: 1.5vw;
+    background: var(--white);
+    border-radius: 50px;
+    color: var(--brown);
+    background-color: var(--yellow_light);
+}
+.container{
+
+}
+.products__photo img{
+    height: 15vw;
+    width: 18vw;
+    background-size: cover;
+    border-radius: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+.products__title {
+    color: var(--dark);
+    font-weight: bold;
+    font-size: 2.4vw;
+    font-family: "Balsamiq Sans",bold;
+}
+
+.item_image{
+    width: 55%;
+    height: 55%;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    transform: translate(20vw, 34vw);
+    background-size: cover;
+    border-radius: 50%;
+}
