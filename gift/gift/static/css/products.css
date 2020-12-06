@@ -44,8 +44,9 @@
     font-weight: bold;
     font-size: 1.5vw;
     font-family: "Balsamiq Sans",bold;
-    text-align: left;
-    padding-top: 1vw;
+    margin-right: 10vw;
+    float: left;
+    padding: 0;
 }
 
 .item_image{

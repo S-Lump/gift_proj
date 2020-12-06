@@ -16,6 +16,11 @@
     flex:1;
     padding-left: 0.5em;
     font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    color: var(--brown);
+}
+.link a{
+
 }
 .circle{
     width: 80vw;
@@ -86,23 +91,23 @@
     border-radius: 30px;
     position: absolute;
     transform: translate(40vw,20vw);
+    justify-content: space-between;
+    padding-left: 1vw;
 }
 .header_line a{
-    flex:1;
+
     text-decoration: none;
     color: white;
     text-align: center;
-    margin-top: 1.5vw;
     font-size: 1.5vw;
+    padding: 10%;
+    border: 3px;
 }
-
 .head_link{
     flex:1;
     margin-top: 1.5vw;
-    margin-left: 1vw;
-    border: none;
 }
-.head_link:hover{
+.head_link a:hover{
     background: var(--brown_light);
 
 }
