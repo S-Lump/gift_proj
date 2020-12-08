@@ -65,6 +65,22 @@
     transition:opacity 0.5s;
 }
 
+.item_info{
+    display: flex;
+    flex-direction: column;
+    color: var(--brown);
+    justify-content: center;
+    align-items: center;
+
+}
+.product_description{
+
+
+}
+.review{
+    text-align: left;
+}
+
 @media (max-width: 850px) {
     .list-of-products {
         flex-direction: column;
