@@ -25,7 +25,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="Fix my mistakes">
+    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="item detail.html change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/gift/static/css/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/products.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/products/templates/products/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/detail.html" afterDir="false" />
@@ -139,7 +139,7 @@
       <workItem from="1606641389986" duration="5361000" />
       <workItem from="1606648653193" duration="4629000" />
       <workItem from="1607249171547" duration="3130000" />
-      <workItem from="1607350555556" duration="2262000" />
+      <workItem from="1607350555556" duration="3118000" />
     </task>
     <task id="LOCAL-00001" summary="Little change color (test)">
       <created>1604295344945</created>
@@ -330,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607252313581</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="item detail.html change">
+      <created>1607427197069</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1607427197069</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +380,8 @@
     <MESSAGE value="Work with product_block" />
     <MESSAGE value="Flexbox" />
     <MESSAGE value="Fix my mistakes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix my mistakes" />
+    <MESSAGE value="item detail.html change" />
+    <option name="LAST_COMMIT_MESSAGE" value="item detail.html change" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="0" width="1072" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606138917114">
