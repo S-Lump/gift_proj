@@ -19,7 +19,6 @@
 .products__item{
     display: flex;
     flex-direction: column;
-
     align-items: center;
     min-width: 10vw;
     height: 30vw;
@@ -84,12 +83,15 @@
 .review{
 
 }
-
+.text_block{
+    display: flex;
+}
 @media (max-width: 850px) {
     .list-of-products {
         flex-direction: column;
+
     }
     product_item{
-        width: 60vw;
+        height: 50vw;
     }
 }
