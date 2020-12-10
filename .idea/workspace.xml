@@ -25,10 +25,9 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/index.css" afterDir="false" />
+    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="Work with products.css">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/gift/static/css/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/products.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/category.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jdmjV6NTHRWOhe59idOU2NqGEu" />
@@ -58,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Acid-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.9" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,12 +72,8 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Python 3.7" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="Python 3.9" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="gift_proj" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -81,11 +81,10 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Roaming/Microsoft/Windows/Start Menu/Programs" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.7" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.9" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,12 +100,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Roaming/Microsoft/Windows/Start Menu/Programs" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.7" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.9" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,6 +128,17 @@
       <workItem from="1604294552574" duration="12532000" />
       <workItem from="1604508233775" duration="9372000" />
       <workItem from="1604653657849" duration="1292000" />
+      <workItem from="1606138058292" duration="1402000" />
+      <workItem from="1606139488607" duration="14104000" />
+      <workItem from="1606158631395" duration="1041000" />
+      <workItem from="1606212412523" duration="1609000" />
+      <workItem from="1606489302998" duration="4001000" />
+      <workItem from="1606502873509" duration="3235000" />
+      <workItem from="1606565238631" duration="1905000" />
+      <workItem from="1606641389986" duration="5361000" />
+      <workItem from="1606648653193" duration="4629000" />
+      <workItem from="1607249171547" duration="3130000" />
+      <workItem from="1607350555556" duration="5720000" />
     </task>
     <task id="LOCAL-00001" summary="Little change color (test)">
       <created>1604295344945</created>
@@ -221,7 +231,119 @@
       <option name="project" value="LOCAL" />
       <updated>1604654683268</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="New branch">
+      <created>1606139650602</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606139650602</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add yellow circle">
+      <created>1606147314928</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606147314928</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fucking circles&#10;I hate you">
+      <created>1606157778862</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606157778863</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fucking circles&#10;I hate you">
+      <created>1606157783871</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1606157783871</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Circle optimization with vW">
+      <created>1606159080930</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1606159080930</updated>
+    </task>
+    <task id="LOCAL-00019" summary="menu line">
+      <created>1606214010864</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1606214010865</updated>
+    </task>
+    <task id="LOCAL-00020" summary="footer circle">
+      <created>1606491683506</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1606491683506</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Need footer optimization">
+      <created>1606494189041</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1606494189041</updated>
+    </task>
+    <task id="LOCAL-00022" summary="footer">
+      <created>1606565487385</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1606565487385</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fix header brown line">
+      <created>1606566595680</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1606566595680</updated>
+    </task>
+    <task id="LOCAL-00024" summary="New pages">
+      <created>1606646762615</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1606646762615</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Work with product_block">
+      <created>1606675604694</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1606675604694</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Flexbox">
+      <created>1607250705715</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1607250705715</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Fix my mistakes">
+      <created>1607252313581</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1607252313581</updated>
+    </task>
+    <task id="LOCAL-00028" summary="item detail.html change">
+      <created>1607427197069</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1607427197069</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Work with products.css">
+      <created>1607428062637</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1607428062637</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +362,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Little change color (test)" />
     <MESSAGE value="Change html detail.html" />
     <MESSAGE value="Add &quot;Add to cart&quot;" />
     <MESSAGE value="New items" />
@@ -251,12 +372,28 @@
     <MESSAGE value="change design" />
     <MESSAGE value="Говноадаптив под мобилки" />
     <MESSAGE value="Add header in base" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add header in base" />
+    <MESSAGE value="New branch" />
+    <MESSAGE value="Add yellow circle" />
+    <MESSAGE value="Fucking circles&#10;I hate you" />
+    <MESSAGE value="Circle optimization with vW" />
+    <MESSAGE value="menu line" />
+    <MESSAGE value="footer circle" />
+    <MESSAGE value="Need footer optimization" />
+    <MESSAGE value="footer" />
+    <MESSAGE value="Fix header brown line" />
+    <MESSAGE value="New pages" />
+    <MESSAGE value="Work with product_block" />
+    <MESSAGE value="Flexbox" />
+    <MESSAGE value="Fix my mistakes" />
+    <MESSAGE value="item detail.html change" />
+    <MESSAGE value="Work with products.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work with products.css" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="106" y="39" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604142664211">
-      <screen x="0" y="0" width="1304" height="768" />
+    <state x="104" y="0" width="1072" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606138917114">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="104" y="0" width="1072" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1606138917114" />
     <state x="106" y="39" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1304.768@0.0.1304.768" timestamp="1604142664211" />
     <state x="432" y="89" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1604142677137">
       <screen x="0" y="0" width="1304" height="768" />
@@ -267,17 +404,20 @@
     </state>
     <state x="278" y="0" key="CommitChangelistDialog2/0.0.1304.768/1366.0.1280.994@0.0.1304.768" timestamp="1604654681498" />
     <state x="278" y="0" key="CommitChangelistDialog2/0.0.1304.768@0.0.1304.768" timestamp="1604319381673" />
-    <state x="432" y="139" key="FileChooserDialogImpl" timestamp="1604258764960">
-      <screen x="0" y="0" width="1304" height="768" />
+    <state x="141" y="114" key="FileChooserDialogImpl" timestamp="1606138916187">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="141" y="114" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1606138916187" />
     <state x="432" y="139" key="FileChooserDialogImpl/0.0.1304.768@0.0.1304.768" timestamp="1604258764960" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1604654346052">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1304.768/1366.0.1280.994@0.0.1304.768" timestamp="1604654346052" />
-    <state x="244" y="117" key="Vcs.Push.Dialog.v2" timestamp="1604654691569">
-      <screen x="0" y="0" width="1304" height="768" />
+    <state x="240" y="110" key="Vcs.Push.Dialog.v2" timestamp="1607428042342">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="240" y="110" key="Vcs.Push.Dialog.v2/0.0.1280.720/1920.0.1280.1024@0.0.1280.720" timestamp="1606675625466" />
+    <state x="240" y="110" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1607428042342" />
     <state x="244" y="117" key="Vcs.Push.Dialog.v2/0.0.1304.768/1366.0.1280.994@0.0.1304.768" timestamp="1604654691569" />
     <state x="244" y="117" key="Vcs.Push.Dialog.v2/0.0.1304.768@0.0.1304.768" timestamp="1604319387039" />
     <state x="470" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604654608859">

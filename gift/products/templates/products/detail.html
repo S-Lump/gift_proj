@@ -9,15 +9,38 @@ Detail
 
 
 <div class = "item_block">
-    <img class="item_image" src="{{ product.photo.url }}" alt="" width="300">
-    <div class="item_info">
-        <h1>{{ product.title }}</h1>
-    <p>{{ product.description }}</p>
-        <div class = "product_price">
-    <p>Price: {{ product.price }}
-            <a class="cart-btn" href="#">Add to cart</a>
-    </p>
+    <div class="wrapper">
+        <div class = "bottom_menu">
+            <div class="logo">Logo</div>
+            <div class="menu_links">
+            </div>
         </div>
+        <div class = "circle"><img class="item_image" src="{{ product.photo.url }}"> </div>
+        <div class = "circle_light"></div>
+        <div class="intro_text">
+            <h2>{{product.title}}</h2>
+            <p></p>
+        </div>
+    </div>
+
+
+
+
+    <div class="item_info">
+        <div class="product_description">
+        <h2>Описание</h2>
+        <p>{{ product.description }}</p>
+        </div>
+        <div class="review">
+            <h2>Отзывы</h2>
+            <p>wadawddwddw</p>
+        </div>
+        <div class = "product_price">
+            <p>
+            <a class="cart-btn" href="#">Add to cart</a>
+             </p>
+        </div>
+
     <p>{{ product.category }}</p>
     </div>
 </div>

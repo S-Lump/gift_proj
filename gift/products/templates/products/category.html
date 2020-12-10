@@ -5,28 +5,48 @@
 {% endblock %}
 
 {% block content %}
-<div class = "testContent">
-    <div class="products">
-        <div class="container">
-            <div class="list-of-products">
-                {% for item in products %}
-
-                <a href="{{item.get_absolute_url}}" class = "products__item_link">
-                    <div class="products__item">
-                        <div class="products__title">{{ item.title }}</div>
-                        <div class="products__description">{{ item.description }}</div>
-                        <div class="products__photo"><img src="{{ item.photo.url }}"></div>
-                        <div class="products__price">{{ item.price }}</div>
-                        <div class="products__category">{{ item.category }}</div>
-                        <div class="products__info"></div>
-                    </div>
-                </a>
-
-                {% endfor %}
-            </div>
+<div class="wrapper">
+    <div class = "bottom_menu">
+        <div class="logo">Logo</div>
+        <div class="menu_links">
+            <div class="link">Контакты</div>
+            <div class="link">О нас</div>
+            <div class="link">Личный кабинет</div>
         </div>
     </div>
+    <div class = "circle"><img src="{{category.photo.url}}"></div>
+    <div class = "circle_light"></div>
+    <div class="intro_text">
+        <h2>{{category.title}}</h2>
+    </div>
+    </div>
+<div class="container">
+    <div class="list-of-products">
+        {% for item in products %}
+        <a href="{{item.get_absolute_url}}" class = "products__item_link">
+            <div class="products__item">
+                <div class="products__photo"><img src="{{ item.photo.url }}"></div>
+                <div class="products__title">{{ item.title }}</div>
+                <div class="products__info"></div>
+            </div>
+        </a>
+
+        {% endfor %}
+    </div>
+</div>
+<div class="wrapper">
     <div class="footer">
+
+        <div class="footer_circle">
+            <hr>
+            <div class="contact">
+                <p class="footer_link">+7-(999)-999-99-99<br>poof@info.com</p>
+                <a href="#" class="footer_link">Instagram</a>
+                <a href="#" class="footer_link">Telegram</a>
+                <a href="#" class="footer_link">Vkontakte</a>
+            </div>
+        </div>
+
 
     </div>
 </div>

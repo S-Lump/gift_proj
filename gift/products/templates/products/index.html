@@ -6,19 +6,50 @@ GIFT PROJECT
 {% endblock %}
 
 {% block content %}
-    <div class="box">
+<div class="wrapper">
+   <div class = "bottom_menu">
+        <div class="logo">Logo</div>
+        <div class="menu_links">
+            <a href="#" class="link">Контакты</a>
+            <a href="#" class="link">О нас</a>
+            <a href="#" class="link">Личный кабинет</a>
+        </div>
+   </div>
+<div class = "circle"><div class = "circle_img"></div></div>
+<div class = "circle_light"></div>
+<div class="intro_text">
+    <h2>ДАРИТЕ ВПЕЧАТЛЕНИЯ
+        СВОИМ РОДНЫМ И БЛИЗКИМ!</h2>
+    <p>Мы собрали для вас самые лучшие варианты подарков, которые точно удивят получателей</p>
+</div>
+    <div class="header_line">
         {% for item in categories %}
-            <div class="box__item"><a href="{{ item.get_absolute_url }}">{{ item.title }}</a></div>
+        <div class="head_link"><a href="{{ item.get_absolute_url }}">{{ item.title }}</a></div>
         {% endfor %}
     </div>
-    <div class = "AboutUs">
-        <h2>About us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum.</p>
+</div>
+    <div class="popular">
+
     </div>
+    <div class="review">
+
+    </div>
+
+<div class="wrapper_footer">
+<div class="footer">
+
+    <div class="footer_circle">
+        <hr>
+        <div class="contact">
+            <p class="footer_link">+7-(999)-999-99-99<br>poof@info.com</p>
+            <a href="#" class="footer_link">Instagram</a>
+            <a href="#" class="footer_link">Telegram</a>
+            <a href="#" class="footer_link">Vkontakte</a>
+        </div>
+    </div>
+
+
+</div>
+</div>
+
 {% endblock %}
