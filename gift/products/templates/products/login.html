@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block title %}
-GIFT PROJECT
+Авторизация
 {% endblock %}
 
 {% block content %}
@@ -12,26 +12,19 @@ GIFT PROJECT
         <div class="menu_links">
             <a href="#" class="link">Контакты</a>
             <a href="#" class="link">О нас</a>
-            {% if request.user.is_authenticated %}
-            <a href="#" class="link">Личный кабинет</a>
-            <a href="{% url 'logout' %}" class="link">Выход</a>
-            {% else %}
-            <a href="{% url 'login' %}" class="link">Войти</a>
-            {% endif %}
         </div>
    </div>
-<div class = "circle"><div class = "circle_img"></div></div>
+<div class = "circle"></div>
 <div class = "circle_light"></div>
-<div class="intro_text">
-    <h2>ДАРИТЕ ВПЕЧАТЛЕНИЯ
-        СВОИМ РОДНЫМ И БЛИЗКИМ!</h2>
-    <p>Мы собрали для вас самые лучшие варианты подарков, которые точно удивят получателей</p>
+<div class="text">
+    <h2>Авторизация</h2>
+     <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary btn-block">Авторизация</button>
+    </form>
+    <a href="{% url 'register' %}" class="link">Регистрация</a>
 </div>
-    <div class="header_line">
-        {% for item in categories %}
-        <div class="head_link"><a href="{{ item.get_absolute_url }}">{{ item.title }}</a></div>
-        {% endfor %}
-    </div>
 </div>
     <div class="popular">
 
