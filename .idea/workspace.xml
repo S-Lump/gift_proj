@@ -25,13 +25,9 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="Little fixes">
+    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="little bit fixes in front">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/gift/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/products.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/products/templates/products/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +73,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Python 3.9" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="gift_proj" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,7 +145,7 @@
       <workItem from="1606648653193" duration="4629000" />
       <workItem from="1607249171547" duration="3130000" />
       <workItem from="1607350555556" duration="6339000" />
-      <workItem from="1607673533172" duration="2961000" />
+      <workItem from="1607673533172" duration="4468000" />
     </task>
     <task id="LOCAL-00001" summary="Little change color (test)">
       <created>1604295344945</created>
@@ -356,7 +357,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607430684865</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Add new cart_logo.png">
+      <created>1607680025676</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1607680025676</updated>
+    </task>
+    <task id="LOCAL-00032" summary="little bit fixes in front">
+      <created>1607680061029</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1607680061029</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,8 +390,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add &quot;Add to cart&quot;" />
-    <MESSAGE value="New items" />
     <MESSAGE value="Add header in detail.html" />
     <MESSAGE value="index.html changes" />
     <MESSAGE value="add few colors" />
@@ -400,7 +413,9 @@
     <MESSAGE value="item detail.html change" />
     <MESSAGE value="Work with products.css" />
     <MESSAGE value="Little fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Little fixes" />
+    <MESSAGE value="Add new cart_logo.png" />
+    <MESSAGE value="little bit fixes in front" />
+    <option name="LAST_COMMIT_MESSAGE" value="little bit fixes in front" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="0" width="1072" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606138917114">

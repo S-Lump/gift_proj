@@ -28,11 +28,14 @@
                 <div class="products__photo"><img src="{{ item.photo.url }}"></div>
                 <div class="block_text">
                 <div class="products__title">{{ item.title }}</div>
-                <div class="products__info">{{ item.price}}</div>
+                    <div class="price_block">
+
+                        <button class="cart"><img src="../../../gift/static/img/Cart_logo.png"></button>
+                        <div class="products__info">{{ item.price}}</div>
+                    </div>
                     </div>
             </div>
         </a>
-
         {% endfor %}
     </div>
 </div>
