@@ -26,8 +26,10 @@
         <a href="{{item.get_absolute_url}}" class = "products__item_link">
             <div class="products__item">
                 <div class="products__photo"><img src="{{ item.photo.url }}"></div>
+                <div class="block_text">
                 <div class="products__title">{{ item.title }}</div>
-                <div class="products__info"></div>
+                <div class="products__info">{{ item.price}}</div>
+                    </div>
             </div>
         </a>
 

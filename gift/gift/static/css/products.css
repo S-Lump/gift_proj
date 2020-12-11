@@ -86,6 +86,18 @@
 .text_block{
     display: flex;
 }
+
+.text{
+    text-align: center;
+}
+.reg{
+padding-top: 1vw;
+
+}
+.block_text{
+    display: flex;
+    flex-direction: row;
+}
 @media (max-width: 850px) {
     .list-of-products {
         flex-direction: column;

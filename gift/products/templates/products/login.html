@@ -19,11 +19,11 @@
 <div class="text">
     <h2>Авторизация</h2>
      <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
+          {% csrf_token %}
+         <div class = "form"> {{ form.as_p }} </div>
         <button type="submit" class="btn btn-primary btn-block">Авторизация</button>
     </form>
-    <a href="{% url 'register' %}" class="link">Регистрация</a>
+    <a href="{% url 'register' %}" class="link reg">Регистрация</a>
 </div>
 </div>
     <div class="popular">
