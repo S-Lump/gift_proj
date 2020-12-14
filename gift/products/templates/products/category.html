@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block title %}
     {{title}}
 {% endblock %}
@@ -29,8 +29,7 @@
                 <div class="block_text">
                 <div class="products__title">{{ item.title }}</div>
                     <div class="price_block">
-
-                        <button class="cart"><img src="../../../gift/static/img/Cart_logo.png"></button>
+                        <input class="cart" type="image" src="{% static 'img/Cart_logo.png' %}" alt="Кнопка «Cart»">
                         <div class="products__info">{{ item.price}}</div>
                     </div>
                     </div>

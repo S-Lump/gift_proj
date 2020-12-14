@@ -98,6 +98,13 @@ padding-top: 1vw;
     display: flex;
     flex-direction: row;
 }
+
+.cart{
+    border-radius: 50%;
+    background-image: url("../img/Cart_logo.png");
+    width: 3vw;
+    height: 3vw;
+}
 @media (max-width: 850px) {
     .list-of-products {
         flex-direction: column;
