@@ -50,7 +50,7 @@ background:var(--yellow_light);
     position: absolute;
     z-index: -1;
     background-repeat: no-repeat;
-    transform: translate(20vw, 34vw);
+    transform: translate(15vw, 32vw);
     background-size: cover;
     border-radius: 50%;
 
