@@ -18,9 +18,12 @@
     font-family: 'Bebas Neue', cursive;
     text-decoration: none;
     color: var(--brown);
+    text-align: center;
+    padding: 0.5vw;
+    border-radius: 50px;
 }
-.link a{
-
+.link:hover{
+background:var(--yellow_light);
 }
 .circle{
     width: 80vw;
