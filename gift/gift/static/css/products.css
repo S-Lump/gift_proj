@@ -16,94 +16,65 @@
     max-width: 100vw;
     justify-content: space-between;
 }
-.products__item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: 10vw;
-    height: 30vw;
-    color: var(--brown);
-
-}
-.container{
-
-}
-.products__photo img{
-    height: 20vw;
-    width: 28vw;
-
-    background-size: cover;
-    padding: 0.5vw;
-}
 
 
 
-.products__title {
-    color: var(--brown);
-    font-weight: bold;
-    font-size: 1.5vw;
-    font-family: "Balsamiq Sans",bold;
-    margin-right: 10vw;
-    float: left;
-    padding: 0;
-}
 
-.item_image{
-    width: 55%;
-    height: 55%;
-    position: absolute;
-    z-index: -1;
-    background-repeat: no-repeat;
-    transform: translate(20vw, 34vw);
-    background-size: cover;
-    border-radius: 50%;
-}
 
-.products__item_link:hover{
-    opacity: 80%;
-    transition:opacity 0.5s;
-}
 
-.item_info{
-    display: flex;
-    flex-direction: column;
-    color: var(--brown);
-    justify-content: center;
-    text-align: left;
-    padding-right: 12vw;
-    padding-left: 12vw;
-}
-.item_info h2{
-    font-size: 3vw;
-}
 
-.item_info p{
-    font-size: 2.5vw;
-}
+
+
+
+
+
 .review{
 
 }
-.text_block{
-    display: flex;
-}
 
-.text{
-    text-align: center;
-}
+
+
 .reg{
 padding-top: 1vw;
-
 }
-.block_text{
+
+
+.items {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
+.item {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5vw;
+
+}
+
+.item:hover{
+    opacity: 80%;
+    transition: opacity 0.5s;
+}
+.item__image img{
+    width: 24vw;
+    height: 18vw;
+}
+.item__info {
+    display: flex;
+    justify-content: space-between;
+    color: var(--brown);
+    font-family: "Balsamiq Sans", bold;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+}
 .cart{
-    border-radius: 50%;
-    background-image: url("../img/Cart_logo.png");
     width: 3vw;
     height: 3vw;
+    z-index: 1;
 }
 @media (max-width: 850px) {
     .list-of-products {
