@@ -15,13 +15,14 @@
 .link{
     flex:1;
     padding-left: 0.5em;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
     text-decoration: none;
     color: var(--brown);
     text-align: center;
     padding: 0.5vw;
     border-radius: 50px;
 }
+
 .link:hover{
 background:var(--yellow_light);
 }
@@ -150,4 +151,10 @@ hr {
 
 .footer_link a:hover {
     background: var(--yellow);
+}
+
+@media (max-width: 380px) {
+    .menu_links{
+        flex:2;
+    }
 }
