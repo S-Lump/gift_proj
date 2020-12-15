@@ -119,20 +119,38 @@ padding-top: 1vw;
 
 @media (max-width: 850px) {
     .items {
-        flex-direction: column;
+
         text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .item{
+        width: 45%;
+        height: 45%;
+
+    }
+    .title{
+        padding-bottom: 3vw;
     }
     .item img{
-        width: 90%;
-        height: 80%;
-        border-radius: 50px;
+        height: 45vw;
+        width: 45vw;
+        padding: 1vw;
     }
+
     .item__info{
         justify-content: center;
         font-size: 5vw;
+        flex-direction: column;
+
     }
     .price{
-        flex-direction: row;
+
+        text-align: center;
+    }
+    .cart{
+        width: 6vw;
+        height: 6vw;
     }
 
 }

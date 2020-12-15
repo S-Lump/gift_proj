@@ -25,12 +25,13 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="Aaaa">
+    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="Fix fonts and add adaptive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/gift/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/gift/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/category.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/products/templates/products/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +78,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Python 3.9" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="gift_proj" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,7 +154,7 @@
       <workItem from="1607685891561" duration="9000" />
       <workItem from="1607945872051" duration="9515000" />
       <workItem from="1607967916712" duration="4494000" />
-      <workItem from="1608020223627" duration="1063000" />
+      <workItem from="1608020223627" duration="8143000" />
     </task>
     <task id="LOCAL-00001" summary="Little change color (test)">
       <created>1604295344945</created>
@@ -409,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607972866206</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Fix fonts and add adaptive">
+      <created>1608021505894</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1608021505894</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +441,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Говноадаптив под мобилки" />
     <MESSAGE value="Add header in base" />
     <MESSAGE value="New branch" />
     <MESSAGE value="Add yellow circle" />
@@ -453,7 +465,8 @@
     <MESSAGE value="Js Scripts.js" />
     <MESSAGE value="add background color in index" />
     <MESSAGE value="Aaaa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aaaa" />
+    <MESSAGE value="Fix fonts and add adaptive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix fonts and add adaptive" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="0" width="1072" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606138917114">
