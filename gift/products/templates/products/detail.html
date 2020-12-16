@@ -11,7 +11,7 @@ Detail
 <div class = "item_block">
     <div class="wrapper">
         <div class = "bottom_menu">
-            <div class="logo">Logo</div>
+            <div class="logo"><img src="{% static 'img/Logo.png' %}"></div>
             <div class="menu_links">
                 <a href="#" class="link">Контакты</a>
                 <a href="#" class="link">О нас</a>
@@ -52,5 +52,20 @@ Detail
     <p>{{ product.category }}</p>
     </div>
 </div>
+<div class="wrapper_footer">
+    <div class="footer">
 
+        <div class="footer_circle">
+            <div><hr></div>
+            <div class="contact">
+                <p class="">+7-(999)-999-99-99<br>poof@info.com</p>
+                <a href="https://www.instagram.com/yellow__boat/" class="footer_link">Instagram</a>
+                <a href="https://t.me/djoefrit" class="footer_link">Telegram</a>
+                <a href="https://vk.com/lonep" class="footer_link">Vkontakte</a>
+            </div>
+        </div>
+
+
+    </div>
+</div>
 {% endblock %}
