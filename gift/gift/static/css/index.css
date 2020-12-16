@@ -95,12 +95,7 @@ background:var(--yellow_light);
  height: 80vw;
  overflow: hidden;
 }
-.wrapper_footer{
-    position: relative;
-    width: 100%;
-    height: 90vw;
-    overflow: hidden;
-}
+
 .intro_text{
     text-wrap: normal;
     width: 40vw;
@@ -144,16 +139,21 @@ background:var(--yellow_light);
 }
 
 
-
+.wrapper_footer{
+    margin-top: 4vw;
+    position: relative;
+    width: 100%;
+    height: 25vw;
+    overflow: hidden;
+}
 .footer_circle{
     background: var(--yellow_light);
     width: 105vw;
     height:100vw;
     border-radius: 45%;
     position: absolute;
-    transform: translate(-3vw,40vw);
-    margin-top: 300px;
     display: flex;
+    transform: translate(-3vw,0);
 }
 hr {
  position: absolute;
@@ -209,5 +209,12 @@ hr {
     }
     .popular p{
         font-size: 3vw;
+    }
+    .contact{
+        flex-direction: column;
+
+    }
+    .wrapper_footer{
+        height: 60vw;
     }
 }
