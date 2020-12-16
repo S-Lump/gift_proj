@@ -125,11 +125,12 @@ background:var(--yellow_light);
     padding-left: 1vw;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 1.5vw;
+
 }
 .header_link{
     text-decoration: none;
     color: var(--white);
+    font-size: 50%;
 }
 .header_link:hover{
     background: var(--brown_light);

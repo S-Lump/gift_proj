@@ -168,5 +168,13 @@ padding-top: 1vw;
     .title{
        height: 15vw;
     }
-
+    .myButton{
+        margin-left: 20%;
+    }
+    .item_info h2{
+        font-size: 7vw;
+    }
+    .item_info p{
+        font-size: 5vw;
+    }
 }

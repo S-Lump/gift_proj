@@ -32,11 +32,10 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="Adaptive index.html">
+    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="New button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/gift/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/gift/static/css/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/products.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/category.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/products/templates/products/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,14 +159,7 @@
       <workItem from="1607685891561" duration="9000" />
       <workItem from="1607945872051" duration="9515000" />
       <workItem from="1607967916712" duration="4494000" />
-      <workItem from="1608020223627" duration="20293000" />
-    </task>
-    <task id="LOCAL-00001" summary="Little change color (test)">
-      <created>1604295344945</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1604295344945</updated>
+      <workItem from="1608020223627" duration="21250000" />
     </task>
     <task id="LOCAL-00002" summary="Change html detail.html">
       <created>1604297690685</created>
@@ -505,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608120354057</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="New button">
+      <created>1608124483979</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1608124483980</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +535,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="footer" />
     <MESSAGE value="Fix header brown line" />
     <MESSAGE value="New pages" />
     <MESSAGE value="Work with product_block" />
@@ -561,7 +559,8 @@
     <MESSAGE value="Products?" />
     <MESSAGE value="Adaptive footer" />
     <MESSAGE value="Adaptive index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adaptive index.html" />
+    <MESSAGE value="New button" />
+    <option name="LAST_COMMIT_MESSAGE" value="New button" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="0" width="1072" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606138917114">
