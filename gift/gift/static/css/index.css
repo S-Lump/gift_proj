@@ -81,6 +81,14 @@ background:var(--yellow_light);
 .About p{
     font-size: 2vw;
 }
+
+.popular{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    color: var(--brown);
+    margin-left: 14vw;
+}
 .wrapper{
  position: relative;
  width: 100%;

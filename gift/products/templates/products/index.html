@@ -45,7 +45,25 @@ GIFT PROJECT
 </div>
 
 <div class="popular">
-
+    <h2>Наши предложения</h2>
+    <div class="items">
+    <a href="{{item.get_absolute_url}}">
+        <div class="item">
+            <div class="item__image"><img src="{{ item.photo.url }}"> </div>
+            <div class="item__info">
+                <div class="title">
+                    {{ item.title }}
+                </div>
+                <div class="price">
+                    <a class="link-detail">
+                        <input class="cart" type="image" src="{% static 'img/Cart_logo.png' %}" alt="Кнопка «Cart»">
+                        <div>{{ item.price}}</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </a>
+    </div>
 </div>
 
 
