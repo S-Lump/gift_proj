@@ -32,11 +32,8 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="New button">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/products.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/detail.html" afterDir="false" />
+    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="Adaptive in detail.html">
+      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,14 +156,7 @@
       <workItem from="1607685891561" duration="9000" />
       <workItem from="1607945872051" duration="9515000" />
       <workItem from="1607967916712" duration="4494000" />
-      <workItem from="1608020223627" duration="21250000" />
-    </task>
-    <task id="LOCAL-00002" summary="Change html detail.html">
-      <created>1604297690685</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1604297690685</updated>
+      <workItem from="1608020223627" duration="21770000" />
     </task>
     <task id="LOCAL-00003" summary="Add &quot;Add to cart&quot;">
       <created>1604298636089</created>
@@ -504,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608124483980</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Adaptive in detail.html">
+      <created>1608125706981</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1608125706981</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +532,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix header brown line" />
     <MESSAGE value="New pages" />
     <MESSAGE value="Work with product_block" />
     <MESSAGE value="Flexbox" />
@@ -560,7 +556,8 @@
     <MESSAGE value="Adaptive footer" />
     <MESSAGE value="Adaptive index.html" />
     <MESSAGE value="New button" />
-    <option name="LAST_COMMIT_MESSAGE" value="New button" />
+    <MESSAGE value="Adaptive in detail.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adaptive in detail.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="0" width="1072" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606138917114">

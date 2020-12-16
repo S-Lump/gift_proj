@@ -130,7 +130,7 @@ background:var(--yellow_light);
 .header_link{
     text-decoration: none;
     color: var(--white);
-    font-size: 50%;
+    font-size: 1.5vw;
 }
 .header_link:hover{
     background: var(--brown_light);
@@ -235,5 +235,9 @@ hr {
         width: 60%;
         height: 10%;
         transform: translate(30vw, 10vw);
+    }
+    .header_link{
+
+        font-size: 50%;
     }
 }
