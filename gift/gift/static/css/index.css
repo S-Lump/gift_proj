@@ -117,8 +117,8 @@ background:var(--yellow_light);
 .header_line {
     display: flex;
     background: var(--brown);
-    height: 5vw;
-    width: 45vw;
+    height: 5%;
+    width: 40%;
     border-radius: 30px;
     position: absolute;
     transform: translate(40vw, 20vw);
@@ -205,10 +205,14 @@ hr {
         margin-bottom: 3%;
     }
     .popular h2{
-        font-size: 5vw;
+        font-size: 7vw;
     }
-    .popular p{
-        font-size: 3vw;
+    .About h2{
+        font-size: 7vw;
+    }
+
+    .About p{
+        font-size: 5vw;
     }
     .contact{
         flex-direction: column;
@@ -216,5 +220,19 @@ hr {
     }
     .wrapper_footer{
         height: 60vw;
+    }
+
+    .intro_text p{
+        font-size: 3vw;
+    }
+
+    .intro_text h2{
+        font-size: 4vw;
+    }
+
+    .header_line{
+        width: 60%;
+        height: 10%;
+        transform: translate(30vw, 10vw);
     }
 }
