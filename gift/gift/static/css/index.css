@@ -186,6 +186,11 @@ hr {
     border-radius: 50px;
     padding: 1vw;
 }
+
+.category_text{
+    color: var(--brown);
+    text-align: center;
+}
 .footer_link:hover{
     background: var(--yellow );
 }

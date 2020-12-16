@@ -22,9 +22,12 @@
     <div class = "circle_light"></div>
     <div class="intro_text">
         <h2>{{category.title}}</h2>
+
     </div>
     </div>
+<h2 class="category_text">Наше предложение</h2>
 <div class="items">
+
         {% for item in products %}
     <a href="{{item.get_absolute_url}}">
         <div class="item">
