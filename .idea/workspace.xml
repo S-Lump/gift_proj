@@ -32,8 +32,12 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="Adaptive footer">
-      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/index.css" afterDir="false" />
+    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="Adaptive index.html">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/gift/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +160,7 @@
       <workItem from="1607685891561" duration="9000" />
       <workItem from="1607945872051" duration="9515000" />
       <workItem from="1607967916712" duration="4494000" />
-      <workItem from="1608020223627" duration="17682000" />
+      <workItem from="1608020223627" duration="20293000" />
     </task>
     <task id="LOCAL-00001" summary="Little change color (test)">
       <created>1604295344945</created>
@@ -494,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608119974316</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Adaptive index.html">
+      <created>1608120354057</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1608120354057</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +536,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Need footer optimization" />
     <MESSAGE value="footer" />
     <MESSAGE value="Fix header brown line" />
     <MESSAGE value="New pages" />
@@ -550,7 +560,8 @@
     <MESSAGE value="Add adaptive in brown line in index.html" />
     <MESSAGE value="Products?" />
     <MESSAGE value="Adaptive footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adaptive footer" />
+    <MESSAGE value="Adaptive index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adaptive index.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="0" width="1072" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606138917114">
@@ -588,11 +599,11 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="280" y="122" key="MultipleFileMergeDialog/0.0.1280.720@0.0.1280.720" timestamp="1608118772174" />
-    <state x="240" y="110" key="Vcs.Push.Dialog.v2" timestamp="1608118702032">
+    <state x="240" y="110" key="Vcs.Push.Dialog.v2" timestamp="1608120355595">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="240" y="110" key="Vcs.Push.Dialog.v2/0.0.1280.720/1920.0.1280.1024@0.0.1280.720" timestamp="1607972872144" />
-    <state x="240" y="110" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1608118702032" />
+    <state x="240" y="110" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1608120355595" />
     <state x="244" y="117" key="Vcs.Push.Dialog.v2/0.0.1304.768/1366.0.1280.994@0.0.1304.768" timestamp="1604654691569" />
     <state x="244" y="117" key="Vcs.Push.Dialog.v2/0.0.1304.768@0.0.1304.768" timestamp="1604319387039" />
     <state x="324" y="95" key="VcsDiffUtil.ChangesDialog" timestamp="1608118576127">

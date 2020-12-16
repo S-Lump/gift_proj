@@ -18,16 +18,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .review{
 
 }
@@ -120,6 +110,27 @@ padding-top: 1vw;
     padding: 2vw 3vw;
 }
 
+
+.myButton {
+    background-color:var(--red);
+    border-radius:21px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 48px;
+    text-decoration:none;
+}
+.myButton:hover {
+    background-color:#eb5e5e;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+
 @media (max-width: 850px) {
     .items {
 
@@ -129,8 +140,7 @@ padding-top: 1vw;
 
     .item{
         width: 45%;
-        height: 45%;
-
+        padding-bottom: 5vw;
     }
     .title{
         padding-bottom: 3vw;
@@ -152,8 +162,11 @@ padding-top: 1vw;
         text-align: center;
     }
     .cart{
-        width: 6vw;
-        height: 6vw;
+        width: 8vw;
+        height: 8vw;
+    }
+    .title{
+       height: 15vw;
     }
 
 }
