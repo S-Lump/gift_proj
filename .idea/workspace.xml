@@ -32,11 +32,14 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="Renew header line">
+    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="New products">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/gift/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/gift/static/img/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/category.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/products/templates/products/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,28 +162,7 @@
       <workItem from="1607685891561" duration="9000" />
       <workItem from="1607945872051" duration="9515000" />
       <workItem from="1607967916712" duration="4494000" />
-      <workItem from="1608020223627" duration="23207000" />
-    </task>
-    <task id="LOCAL-00004" summary="New items">
-      <created>1604299223381</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1604299223381</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Add header in detail.html">
-      <created>1604300140029</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1604300140029</updated>
-    </task>
-    <task id="LOCAL-00006" summary="index.html changes">
-      <created>1604314396445</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1604314396445</updated>
+      <workItem from="1608020223627" duration="26859000" />
     </task>
     <task id="LOCAL-00007" summary="add few colors">
       <created>1604319383420</created>
@@ -504,7 +486,28 @@
       <option name="project" value="LOCAL" />
       <updated>1608126102006</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="fix detail images">
+      <created>1608127434841</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1608127434841</updated>
+    </task>
+    <task id="LOCAL-00054" summary="New picture">
+      <created>1608127446991</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1608127446991</updated>
+    </task>
+    <task id="LOCAL-00055" summary="New products">
+      <created>1608128092405</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1608128092405</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,9 +538,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Work with product_block" />
-    <MESSAGE value="Flexbox" />
-    <MESSAGE value="Fix my mistakes" />
     <MESSAGE value="item detail.html change" />
     <MESSAGE value="Work with products.css" />
     <MESSAGE value="Little fixes" />
@@ -560,7 +560,10 @@
     <MESSAGE value="New button" />
     <MESSAGE value="Adaptive in detail.html" />
     <MESSAGE value="Renew header line" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renew header line" />
+    <MESSAGE value="fix detail images" />
+    <MESSAGE value="New picture" />
+    <MESSAGE value="New products" />
+    <option name="LAST_COMMIT_MESSAGE" value="New products" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="0" width="1072" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606138917114">
