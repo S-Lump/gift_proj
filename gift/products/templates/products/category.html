@@ -7,7 +7,7 @@
 {% block content %}
 <div class="wrapper">
     <div class = "bottom_menu">
-        <div class="logo"><img src="{% static 'img/Logo.gif' %}"></div>
+        <div class="logo"><img class="category_image" src="{% static 'img/Logo.gif' %}"></div>
         <div class="menu_links">
             <a href="/" class="link">Главная</a>
             {% if request.user.is_authenticated %}
@@ -18,7 +18,7 @@
             {% endif %}
         </div>
     </div>
-    <div class = "circle"><img src="{{category.photo.url}}"></div>
+    <div class = "circle"><img class="item_image" src="{{ category.photo.url }}"> </div>
     <div class = "circle_light"></div>
     <div class="intro_text">
         <h2>{{category.title}}</h2>

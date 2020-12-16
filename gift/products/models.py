@@ -26,6 +26,7 @@ class Products(models.Model):
 
 class Category(models.Model):
     title = models.CharField(max_length=150, db_index=True, verbose_name='Категория')
+    photo = models.ImageField(upload_to='photos/', verbose_name='Изображение', blank=True)
 
     def get_absolute_url(self):
         return reverse_lazy('category', kwargs={'category_id': self.pk})
