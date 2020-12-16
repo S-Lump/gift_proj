@@ -27,12 +27,13 @@ GIFT PROJECT
     <h2>ДАРИТЕ ВПЕЧАТЛЕНИЯ
         СВОИМ РОДНЫМ И БЛИЗКИМ!</h2>
     <p>Мы собрали для вас самые лучшие варианты подарков, которые точно удивят получателей</p>
-</div>
     <div class="header_line">
         {% for item in categories %}
-        <div class="head_link"><a href="{{ item.get_absolute_url }}">{{ item.title }}</a></div>
+        <a class="header_link" href="{{ item.get_absolute_url }}">{{ item.title }}</a>
         {% endfor %}
     </div>
+</div>
+
 </div>
 
 <div class="About">
