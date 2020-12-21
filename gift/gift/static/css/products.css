@@ -62,7 +62,7 @@ padding-top: 1vw;
     flex-direction: column;
     padding: 0.5vw;
     text-decoration: none;
-
+    overflow: hidden;
 }
 .title{
     color: var(--brown);
@@ -72,18 +72,25 @@ padding-top: 1vw;
 }
 
 .item:hover{
-    opacity: 80%;
+    opacity: 90%;
     transition: opacity 0.5s;
 }
+
 .item__image img{
     width: 24vw;
     height: 18vw;
+    transition: 0.3s;
+}
+.item__image img:hover{
+    transform: scale(1.05);
+
 }
 .item__info {
     display: flex;
     justify-content: space-between;
     color: var(--brown);
     font-family: "Balsamiq Sans", bold;
+    margin-top: 2px;
 }
 
 .price{

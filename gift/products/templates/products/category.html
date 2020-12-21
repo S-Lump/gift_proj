@@ -31,6 +31,7 @@
         {% for item in products %}
     <a href="{{item.get_absolute_url}}">
         <div class="item">
+
             <div class="item__image"><img src="{{ item.photo.url }}"> </div>
             <div class="item__info">
                 <div class="title">
