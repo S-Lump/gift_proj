@@ -250,3 +250,40 @@ hr {
         font-size: 50%;
     }
 }
+* {
+    border: 2px solid red;
+}
+.form-control {
+    width: 100%;
+}
+
+.login {
+    width: 400px;
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px var(--light);
+    padding: 20px;
+    margin: 20vh auto;
+}
+
+.login-title {
+    width: 100%;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-login {
+    margin: 0 auto;
+
+}
+
+.btn-reg {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 100%;
+}

@@ -16,14 +16,16 @@
    </div>
 <div class = "circle"></div>
 <div class = "circle_light"></div>
-<div class="text">
-    <h2>Авторизация</h2>
+<div class="text login">
+    <h2 class="login-title">Авторизация</h2>
      <form method="post">
           {% csrf_token %}
          <div class = "form"> {{ form.as_p }} </div>
-        <button type="submit" class="btn btn-primary btn-block">Авторизация</button>
+        <div class="buttons">
+            <button type="submit" class="btn-login">Авторизация</button>
+        </div>
     </form>
-    <a href="{% url 'register' %}" class="link reg">Регистрация</a>
+    <a href="{% url 'register' %}" class="btn-reg">Еще не зарегистрованы?</a>
 </div>
 </div>
     <div class="popular">
