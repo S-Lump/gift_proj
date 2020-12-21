@@ -200,61 +200,6 @@ hr {
 .footer_link a:hover {
     background: var(--yellow);
 }
-
-@media (max-width: 380px) {
-    .menu_links{
-        flex:3;
-    }
-}
-
-@media(max-width: 850px){
-    .wrapper{
-        height: 100vw;
-    }
-    .head_link{
-        margin-bottom: 3%;
-    }
-    .popular h2{
-        font-size: 7vw;
-    }
-    .About h2{
-        font-size: 7vw;
-    }
-
-    .About p{
-        font-size: 5vw;
-    }
-    .contact{
-        flex-direction: column;
-
-    }
-    .wrapper_footer{
-        height: 60vw;
-    }
-
-    .intro_text p{
-        font-size: 3vw;
-    }
-
-    .intro_text h2{
-        font-size: 4vw;
-    }
-
-    .header_line{
-        width: 60%;
-        height: 10%;
-        transform: translate(30vw, 10vw);
-    }
-    .header_link{
-
-        font-size: 50%;
-    }
-}
-
-.form-control {
-    width: 100%;
-}
-
 .login {
     width: 400px;
     background: var(--white);
@@ -262,7 +207,15 @@ hr {
     box-shadow: 0 0 10px 1px var(--light);
     padding: 20px;
     margin: 20vh auto;
+    position: absolute;
+    transform: translate(32vw,-70vw);
 }
+
+.form-control {
+    width: 100%;
+}
+
+
 
 .login-title {
     width: 100%;
@@ -291,3 +244,69 @@ hr {
     margin-top: 1rem;
     width: 100%;
 }
+
+
+@media (max-width: 380px) {
+
+
+    .menu_links{
+        flex:3;
+    }
+
+}
+
+@media(max-width: 850px) {
+    .wrapper {
+        height: 100vw;
+    }
+    .login{
+        width: 300px;
+        transform: translate(10vw,-110vw);
+    }
+
+    .head_link {
+        margin-bottom: 3%;
+    }
+
+    .popular h2 {
+        font-size: 7vw;
+    }
+
+    .About h2 {
+        font-size: 7vw;
+    }
+
+    .About p {
+        font-size: 5vw;
+    }
+
+    .contact {
+        flex-direction: column;
+
+    }
+
+    .wrapper_footer {
+        height: 60vw;
+    }
+
+    .intro_text p {
+        font-size: 3vw;
+    }
+
+    .intro_text h2 {
+        font-size: 4vw;
+    }
+
+    .header_line {
+        width: 60%;
+        height: 10%;
+        transform: translate(30vw, 10vw);
+    }
+
+    .header_link {
+
+        font-size: 50%;
+
+    }
+}
+

@@ -11,11 +11,10 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="add little animation">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="add border in forms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/gift/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,14 +136,7 @@
       <workItem from="1608290428075" duration="233000" />
       <workItem from="1608408093314" duration="74000" />
       <workItem from="1608540162557" duration="3735000" />
-      <workItem from="1608577606650" duration="304000" />
-    </task>
-    <task id="LOCAL-00011" summary="Говноадаптив под мобилки">
-      <created>1604517018780</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1604517018780</updated>
+      <workItem from="1608577606650" duration="2171000" />
     </task>
     <task id="LOCAL-00012" summary="Add header in base">
       <created>1604654506400</created>
@@ -482,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608543676872</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="add border in forms">
+      <created>1608578180048</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1608578180048</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +542,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add new cart_logo.png" />
     <MESSAGE value="little bit fixes in front" />
     <MESSAGE value="Try to add cart button" />
     <MESSAGE value="Add cart in products.css" />
@@ -568,7 +566,8 @@
     <MESSAGE value="Little fixes" />
     <MESSAGE value="Revert &quot;fix bug&quot;&#10;&#10;This reverts commit 9bd3f3d4" />
     <MESSAGE value="add little animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add little animation" />
+    <MESSAGE value="add border in forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="add border in forms" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="0" width="1072" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606138917114">
