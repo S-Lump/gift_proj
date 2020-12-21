@@ -72,12 +72,17 @@ padding-top: 1vw;
 }
 
 .item:hover{
-    transform: scale(1.1);
-    transition: 1s;
+    opacity: 90%;
+    transition: opacity 0.5s;
 }
+
 .item__image img{
     width: 24vw;
     height: 18vw;
+    transition: 0.3s;
+}
+.item__image img:hover{
+    transform: scale(1.05);
 
 }
 .item__info {
@@ -85,6 +90,7 @@ padding-top: 1vw;
     justify-content: space-between;
     color: var(--brown);
     font-family: "Balsamiq Sans", bold;
+    margin-top: 2px;
 }
 
 .price{
