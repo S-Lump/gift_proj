@@ -12,7 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="add little animation">
-      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,14 +136,8 @@
       <workItem from="1608020223627" duration="28228000" />
       <workItem from="1608290428075" duration="233000" />
       <workItem from="1608408093314" duration="74000" />
-      <workItem from="1608540162557" duration="2842000" />
-    </task>
-    <task id="LOCAL-00010" summary="change design">
-      <created>1604514588229</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1604514588230</updated>
+      <workItem from="1608540162557" duration="3735000" />
+      <workItem from="1608577606650" duration="304000" />
     </task>
     <task id="LOCAL-00011" summary="Говноадаптив под мобилки">
       <created>1604517018780</created>
@@ -478,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608543253667</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="add little animation">
+      <created>1608543676871</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1608543676872</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,22 +611,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="522" y="81" key="RollbackChangesDialog/0.0.1280.720@0.0.1280.720" timestamp="1608541887384" />
-    <state x="240" y="110" key="Vcs.Push.Dialog.v2" timestamp="1608131909087">
+    <state x="240" y="110" key="Vcs.Push.Dialog.v2" timestamp="1608543694126">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="240" y="110" key="Vcs.Push.Dialog.v2/0.0.1280.720/1920.0.1280.1024@0.0.1280.720" timestamp="1607972872144" />
-    <state x="240" y="110" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1608131909087" />
+    <state x="240" y="110" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1608543694126" />
     <state x="244" y="117" key="Vcs.Push.Dialog.v2/0.0.1304.768/1366.0.1280.994@0.0.1304.768" timestamp="1604654691569" />
     <state x="244" y="117" key="Vcs.Push.Dialog.v2/0.0.1304.768@0.0.1304.768" timestamp="1604319387039" />
     <state x="324" y="95" key="VcsDiffUtil.ChangesDialog" timestamp="1608118576127">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="324" y="95" key="VcsDiffUtil.ChangesDialog/0.0.1280.720@0.0.1280.720" timestamp="1608118576127" />
-    <state x="461" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608540165993">
+    <state x="461" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608577610067">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="461" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720/1920.0.1280.1024@0.0.1280.720" timestamp="1607945886068" />
-    <state x="461" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1608540165993" />
+    <state x="461" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1608577610067" />
     <state x="470" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1304.768/1366.0.1280.994@0.0.1304.768" timestamp="1604654608859" />
     <state x="470" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1304.768@0.0.1304.768" timestamp="1604294555725" />
     <state x="423" y="74" key="git4idea.branch.GitSmartOperationDialog" timestamp="1608118623784">

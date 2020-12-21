@@ -250,9 +250,7 @@ hr {
         font-size: 50%;
     }
 }
-* {
-    border: 2px solid red;
-}
+
 .form-control {
     width: 100%;
 }
@@ -269,6 +267,12 @@ hr {
 .login-title {
     width: 100%;
     text-align: center;
+}
+.form-control{
+    border: 1px solid black;
+}
+.form-control:hover{
+    border: 1px solid var(--yellow);
 }
 
 .buttons {
