@@ -62,7 +62,7 @@ padding-top: 1vw;
     flex-direction: column;
     padding: 0.5vw;
     text-decoration: none;
-
+    overflow: hidden;
 }
 .title{
     color: var(--brown);
@@ -72,12 +72,13 @@ padding-top: 1vw;
 }
 
 .item:hover{
-    opacity: 80%;
-    transition: opacity 0.5s;
+    transform: scale(1.1);
+    transition: 1s;
 }
 .item__image img{
     width: 24vw;
     height: 18vw;
+
 }
 .item__info {
     display: flex;
