@@ -142,6 +142,9 @@ background:var(--yellow_light);
     padding-bottom: 1vw;
 
 }
+.margin{
+    margin-right:  3vw;
+}
 
 
 .wrapper_footer{
@@ -246,6 +249,8 @@ hr {
 }
 
 
+
+
 @media (max-width: 380px) {
 
 
@@ -262,6 +267,7 @@ hr {
     .login{
         width: 300px;
         transform: translate(10vw,-110vw);
+        padding-bottom: 10vw;
     }
 
     .head_link {

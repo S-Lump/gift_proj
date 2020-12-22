@@ -16,6 +16,9 @@
             {% else %}
             <a href="{% url 'login' %}" class="link">Войти</a>
             {% endif %}
+            <div class="margin">
+            <input class="cart b1" type="image" src="{% static 'img/Cart_logo.gif' %}" alt="Кнопка «Cart»">
+            </div>
         </div>
     </div>
     <div class = "circle"><img class="item_image" src="{{ category.photo.url }}"> </div>
@@ -40,8 +43,7 @@
                 <div class="price">
                <a class="link-detail">
                    <div>{{ item.price}}</div>
-                   <input class="cart" type="image" src="{% static 'img/Cart_logo.png' %}" alt="Кнопка «Cart»">
-
+                   <input class="cart" type="image" src="{% static 'img/Cart_logo.gif' %}" alt="Кнопка «Cart»">
                </a>
                 </div>
         </div>

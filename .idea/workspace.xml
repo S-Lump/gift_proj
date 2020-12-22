@@ -11,10 +11,15 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="add border in forms">
+    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="Try to adaptive forms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/gift/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/gift/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gift/products/templates/products/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +66,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Python 3.9" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="gift_proj" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,14 +146,8 @@
       <workItem from="1608290428075" duration="233000" />
       <workItem from="1608408093314" duration="74000" />
       <workItem from="1608540162557" duration="3735000" />
-      <workItem from="1608577606650" duration="2171000" />
-    </task>
-    <task id="LOCAL-00012" summary="Add header in base">
-      <created>1604654506400</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1604654506400</updated>
+      <workItem from="1608577606650" duration="2499000" />
+      <workItem from="1608626544435" duration="1586000" />
     </task>
     <task id="LOCAL-00013" summary="Add header in base">
       <created>1604654683268</created>
@@ -481,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608578180048</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Try to adaptive forms">
+      <created>1608581179982</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1608581179982</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +553,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="little bit fixes in front" />
     <MESSAGE value="Try to add cart button" />
     <MESSAGE value="Add cart in products.css" />
     <MESSAGE value="Js Scripts.js" />
@@ -567,7 +577,8 @@
     <MESSAGE value="Revert &quot;fix bug&quot;&#10;&#10;This reverts commit 9bd3f3d4" />
     <MESSAGE value="add little animation" />
     <MESSAGE value="add border in forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="add border in forms" />
+    <MESSAGE value="Try to adaptive forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try to adaptive forms" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="0" width="1072" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606138917114">

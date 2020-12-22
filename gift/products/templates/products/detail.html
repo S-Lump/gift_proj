@@ -20,6 +20,9 @@ Detail
                 {% else %}
                 <a href="{% url 'login' %}" class="link">Войти</a>
                 {% endif %}
+                <div class="margin">
+                <input class="cart" type="image" src="{% static 'img/Cart_logo.gif' %}" alt="Кнопка «Cart»">
+                </div>
             </div>
         </div>
         <div class = "circle"><img class="item_image" src="{{ product.photo.url }}"> </div>
@@ -40,6 +43,7 @@ Detail
         <p>{{ product.description }}</p>
             <p>Цена: {{product.price}}</p>
             <a href="#" class="myButton">Заказать</a>
+
         </div>
     </div>
 </div>
