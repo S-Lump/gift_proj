@@ -11,7 +11,23 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="try to adaptive register.html" />
+    <list default="true" id="fb6163d9-8cac-4f10-b2c5-e5a4b5809bce" name="Default Changelist" comment="Size logo and category photo">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_16_2020_2_37_PM_[Default_Changelist]/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_16_2020_2_37_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_16_2020_2_37_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_16_2020_2_33_PM_[Default_Changelist]/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_16_2020_2_33_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_16_2020_2_33_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_16_2020_2_35_PM_[Default_Changelist]/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_16_2020_2_35_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_16_2020_2_35_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_16_2020_2_36_PM_[Default_Changelist]/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_16_2020_2_36_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_16_2020_2_36_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/gift/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gift/gift/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gift/products/templates/products/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/gift/products/templates/products/register.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +73,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Python 3.9" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="gift_proj" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,13 +155,8 @@
       <workItem from="1608540162557" duration="3735000" />
       <workItem from="1608577606650" duration="2499000" />
       <workItem from="1608626544435" duration="2296000" />
-    </task>
-    <task id="LOCAL-00014" summary="New branch">
-      <created>1606139650602</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1606139650602</updated>
+      <workItem from="1608634382319" duration="3172000" />
+      <workItem from="1608725071993" duration="300000" />
     </task>
     <task id="LOCAL-00015" summary="Add yellow circle">
       <created>1606147314928</created>
@@ -478,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608628252422</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Size logo and category photo">
+      <created>1608634509191</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1608634509192</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +562,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add cart in products.css" />
     <MESSAGE value="Js Scripts.js" />
     <MESSAGE value="add background color in index" />
     <MESSAGE value="Aaaa" />
@@ -564,7 +586,8 @@
     <MESSAGE value="add border in forms" />
     <MESSAGE value="Try to adaptive forms" />
     <MESSAGE value="try to adaptive register.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to adaptive register.html" />
+    <MESSAGE value="Size logo and category photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Size logo and category photo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="0" width="1072" height="720" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606138917114">
@@ -582,10 +605,10 @@
     <state x="273" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1608541867869" />
     <state x="278" y="0" key="CommitChangelistDialog2/0.0.1304.768/1366.0.1280.994@0.0.1304.768" timestamp="1604654681498" />
     <state x="278" y="0" key="CommitChangelistDialog2/0.0.1304.768@0.0.1304.768" timestamp="1604319381673" />
-    <state x="93" y="93" width="1095" height="535" key="DiffContextDialog" timestamp="1608118634728">
+    <state x="93" y="93" width="1095" height="535" key="DiffContextDialog" timestamp="1608646361831">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="93" y="93" width="1095" height="535" key="DiffContextDialog/0.0.1280.720@0.0.1280.720" timestamp="1608118634728" />
+    <state x="93" y="93" width="1095" height="535" key="DiffContextDialog/0.0.1280.720@0.0.1280.720" timestamp="1608646361831" />
     <state x="141" y="114" key="FileChooserDialogImpl" timestamp="1606138916187">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -607,22 +630,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="522" y="81" key="RollbackChangesDialog/0.0.1280.720@0.0.1280.720" timestamp="1608541887384" />
-    <state x="240" y="110" key="Vcs.Push.Dialog.v2" timestamp="1608628256972">
+    <state x="240" y="110" key="Vcs.Push.Dialog.v2" timestamp="1608645890067">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="240" y="110" key="Vcs.Push.Dialog.v2/0.0.1280.720/1920.0.1280.1024@0.0.1280.720" timestamp="1607972872144" />
-    <state x="240" y="110" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1608628256972" />
+    <state x="240" y="110" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1608645890067" />
     <state x="244" y="117" key="Vcs.Push.Dialog.v2/0.0.1304.768/1366.0.1280.994@0.0.1304.768" timestamp="1604654691569" />
     <state x="244" y="117" key="Vcs.Push.Dialog.v2/0.0.1304.768@0.0.1304.768" timestamp="1604319387039" />
     <state x="324" y="95" key="VcsDiffUtil.ChangesDialog" timestamp="1608118576127">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="324" y="95" key="VcsDiffUtil.ChangesDialog/0.0.1280.720@0.0.1280.720" timestamp="1608118576127" />
-    <state x="461" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608577610067">
+    <state x="461" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608725081941">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="461" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720/1920.0.1280.1024@0.0.1280.720" timestamp="1607945886068" />
-    <state x="461" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1608577610067" />
+    <state x="461" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1608725081941" />
     <state x="470" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1304.768/1366.0.1280.994@0.0.1304.768" timestamp="1604654608859" />
     <state x="470" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1304.768@0.0.1304.768" timestamp="1604294555725" />
     <state x="423" y="74" key="git4idea.branch.GitSmartOperationDialog" timestamp="1608118623784">
