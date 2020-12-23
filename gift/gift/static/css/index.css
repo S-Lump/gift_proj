@@ -13,7 +13,7 @@
 .logo img{
     width: 15vw;
     height: auto;
-    background: var(--yellow_light);
+    background: none;
 }
 .menu_links{
     display: flex;
@@ -251,14 +251,7 @@ hr {
 
 
 
-@media (max-width: 380px) {
 
-
-    .menu_links{
-        flex:3;
-    }
-
-}
 
 @media(max-width: 850px) {
     .wrapper {
@@ -268,6 +261,9 @@ hr {
         width: 300px;
         transform: translate(10vw,-110vw);
         padding-bottom: 10vw;
+    }
+    .menu_links{
+        flex:4;
     }
 
     .m1{
