@@ -2,7 +2,8 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.views.generic import ListView, DetailView
 from .forms import UserRegisterForm, UserLoginForm
 from django.contrib.auth import login, logout
-
+from cart.cart import Cart
+from myproducts.models import Product
 from .models import Products, Category
 
 
@@ -65,9 +66,24 @@ def user_logout(request):
     return redirect('login')
 
 
+
+def add_to_cart(request, product_id, quantity):
+    product = Product.objects.get(id=product_id)
+    cart = Cart(request)
+    cart.add(product, product.unit_price, quantity)
+
+def remove_from_cart(request, product_id):
+    product = Product.objects.get(id=product_id)
+    cart = Cart(request)
+    cart.remove(product)
+
+def get_cart(request):
+    return render(request, 'cart.html', {'cart': Cart(request)})
+
    # def get_context_data(self, *, object_list=None, **kwargs):
  #        context = super().get_context_data(**kwargs)
   #       context['title'] = 'Товар'
 
 # def get_queryset(self, slug):
     #     return Products.objects.get(slug=slug)
+
