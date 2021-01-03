@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+Корзина
+{% endblock %}
+
+{% block content %}
+<div class = "circle"></div>
+<div class = "circle_light"></div>
+
+<div class="intro_text">
+    <h2>КОРЗИНА</h2>
+    <p>Менеджер свяжется с вами для подтверждения заказа и обсуждения их деталей</p>
+</div>
+{% endblock %}
+
+{% block main %}
+<div class="popular">
+    <h2>Ваши товары</h2>
+    <div class="items">
+    {% for item in products %}
+    <a href="{{ item.get_absolute_url }}">
+        <div class="item item-cart" data-id="{{ item.pk }}" data-price="{{ item.price }}">
+            <div class="item__image"><img src="{{ item.photo.url }}"> </div>
+            <div class="item__info">
+                <div class="title">
+                    {{ item.title }}
+                </div>
+                <div class="price">
+                    <a class="link-detail">
+                        <button class="del" data-id="{{ item.pk }}" data-price="{{ item.price }}">Удалить</button>
+                        <div>{{ item.price }}</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+    </div>
+    <div class="box-cent">
+        <p>Итоговая цена: <span class="sum-price"></span></p>
+        <a href="#" class="myButton">Заказать</a>
+    </div>
+</div>
+{% endblock %}

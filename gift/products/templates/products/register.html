@@ -6,27 +6,11 @@
 {% endblock %}
 
 {% block content %}
-<div class="wrapper">
-   <div class = "bottom_menu">
-
-           <div class="logo"><img class="category_image" src="{% static 'img/Logo.gif' %}"></div>
-           <div class="menu_links">
-               <a href="/" class="link">Главная</a>
-               {% if request.user.is_authenticated %}
-               <a href="#" class="link">Личный кабинет</a>
-               <a href="{% url 'logout' %}" class="link">Выход</a>
-               {% else %}
-               <a href="{% url 'login' %}" class="link">Войти</a>
-               {% endif %}
-               <div class="margin">
-               <input class="cart" type="image" src="{% static 'img/Cart_logo.gif' %}" alt="Кнопка «Cart»">
-               </div>
-
-       </div>
-   </div>
 <div class = "circle"></div>
 <div class = "circle_light"></div>
-</div>
+{% endblock %}
+
+{% block main %}
 <div class="text login">
     <h2>Регистрация</h2>
     <form method="post">
@@ -34,35 +18,5 @@
         {{ form.as_p }}
         <button type="submit" class="btn-login">Регистрация</button>
     </form>
-
 </div>
-    <div class="popular">
-
-    </div>
-    <div class="review">
-
-    </div>
-
-<div class="wrapper_footer m1">
-    <div class="footer">
-
-        <div class="footer_circle">
-            <hr>
-            <div class="contact">
-                <p class="footer_link">+7-(999)-999-99-99<br>poof@info.com</p>
-                <a href="#" class="footer_link">Instagram</a>
-                <a href="#" class="footer_link">Telegram</a>
-                <a href="#" class="footer_link">Vkontakte</a>
-            </div>
-        </div>
-
-
-    </div>
-</div>
-
-
-
-</div>
-</div>
-
 {% endblock %}

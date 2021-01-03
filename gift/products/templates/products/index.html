@@ -1,28 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block title %}
-GIFT PROJECT
-{% endblock %}
-
 {% block content %}
-
-<div class="wrapper">
-   <div class = "bottom_menu">
-        <div class="logo"><img src="{% static 'img/Logo.gif' %}"></div>
-        <div class="menu_links">
-            <a href="/" class="link">Главная</a>
-            {% if request.user.is_authenticated %}  
-            <a href="#" class="link">Личный кабинет</a>
-            <a href="{% url 'logout' %}" class="link">Выход</a>
-            {% else %}
-            <a href="{% url 'login' %}" class="link">Войти</a>
-            {% endif %}
-            <div class="margin">
-            <input class="cart" type="image" src="{% static 'img/Cart_logo.gif' %}" alt="Кнопка «Cart»">
-            </div>
-        </div>
-   </div>
 <div class = "circle"><div class = "circle_img"></div></div>
 <div class = "circle_light"></div>
 <div class="intro_text">
@@ -35,9 +14,9 @@ GIFT PROJECT
         {% endfor %}
     </div>
 </div>
+{% endblock %}
 
-</div>
-
+{% block main %}
 <div class="About">
     <h2>О нас</h2>
     <p>Хотите порадовать своих близких незабываемым подарком? Или надоело
@@ -50,7 +29,8 @@ GIFT PROJECT
 <div class="popular">
     <h2>Наши предложения</h2>
     <div class="items">
-    <a href="{{item.get_absolute_url}}">
+    {% for item in products %}
+    <a href="{{ item.get_absolute_url }}">
         <div class="item">
             <div class="item__image"><img src="{{ item.photo.url }}"> </div>
             <div class="item__info">
@@ -59,32 +39,14 @@ GIFT PROJECT
                 </div>
                 <div class="price">
                     <a class="link-detail">
-                        <input class="cart" type="image" src="{% static 'img/Cart_logo.png' %}" alt="Кнопка «Cart»">
-                        <div>{{ item.price}}</div>
+                        <input class="cart cart-add" data-id="{{ item.pk }}" type="image" src="{% static 'img/Cart_logo.png' %}" alt="Кнопка «Cart»">
+                        <div>{{ item.price }}</div>
                     </a>
                 </div>
             </div>
         </div>
     </a>
+    {% endfor %}
     </div>
 </div>
-
-
-<div class="wrapper_footer">
-<div class="footer">
-
-    <div class="footer_circle">
-        <div><hr></div>
-        <div class="contact">
-            <p class="footer_link">+7-(999)-999-99-99<br>poof@info.com</p>
-            <a href="https://www.instagram.com/yellow__boat/" class="footer_link">Instagram</a>
-            <a href="https://t.me/djoefrit" class="footer_link">Telegram</a>
-            <a href="https://vk.com/lonep" class="footer_link">Vkontakte</a>
-        </div>
-    </div>
-
-
-</div>
-</div>
-
 {% endblock %}

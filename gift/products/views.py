@@ -18,10 +18,15 @@ from .models import Products, Category
 
 
 
-class Home(ListView):
-    model = Category
-    template_name = 'products/index.html'
-    context_object_name = 'categories'
+# class Home(ListView):
+#     model = Category
+#     template_name = 'products/index.html'
+#     context_object_name = 'categories'
+
+def home(request):
+    products = Products.objects.all()[:3]
+    categories = Category.objects.all()
+    return render(request, 'products/index.html', {'products': products, 'categories': categories})
 
 
 def get_category(request, category_id):
@@ -37,7 +42,6 @@ class Product(DetailView):
     context_object_name = 'product'
 
 
-
 def user_register(request):
     if request.method == 'POST':
         form = UserRegisterForm(request.POST)
@@ -48,6 +52,7 @@ def user_register(request):
     else:
         form = UserRegisterForm()
     return render(request, 'products/register.html', {"form": form})
+
 
 def user_login(request):
     if request.method == 'POST':
@@ -60,14 +65,13 @@ def user_login(request):
         form = UserLoginForm()
     return render(request, 'products/login.html', {"form": form})
 
+
 def user_logout(request):
     logout(request)
     return redirect('login')
 
 
-   # def get_context_data(self, *, object_list=None, **kwargs):
- #        context = super().get_context_data(**kwargs)
-  #       context['title'] = 'Товар'
-
-# def get_queryset(self, slug):
-    #     return Products.objects.get(slug=slug)
+def cart(request):
+    products = Products.objects.all()
+    return render(request, 'products/cart.html', {"products": products})
+    
