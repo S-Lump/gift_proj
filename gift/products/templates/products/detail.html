@@ -1,13 +1,11 @@
-{% extends 'base.html' %}
+{% extends 'optional.html' %}
 {% load static %}
 
 {% block title %}
-Detail
+{{ product.title }}
 {% endblock %}
 
 {% block content %}
-
-
 <div class = "item_block">
     <div class="wrapper">
         <div class = "bottom_menu">
@@ -15,52 +13,30 @@ Detail
             <div class="menu_links">
                 <a href="/" class="link">Главная</a>
                 {% if request.user.is_authenticated %}
-                <a href="#" class="link">Личный кабинет</a>
-                <a href="{% url 'logout' %}" class="link">Выход</a>
+                    <!-- <a href="#" class="link">Личный кабинет</a> -->
+                    <a href="{% url 'logout' %}" class="link">Выход</a>
                 {% else %}
-                <a href="{% url 'login' %}" class="link">Войти</a>
+                    <a href="{% url 'login' %}" class="link">Войти</a>
                 {% endif %}
-                <div class="margin">
-                <input class="cart" type="image" src="{% static 'img/Cart_logo.gif' %}" alt="Кнопка «Cart»">
-                </div>
+                <a class="margin" href="{% url 'cart' %}">
+                    <input class="cart" type="image" src="{% static 'img/Cart_logo.gif' %}" alt="Кнопка «Cart»">
+                </a>
             </div>
         </div>
         <div class = "circle"><img class="item_image" src="{{ product.photo.url }}"> </div>
         <div class = "circle_light"></div>
         <div class="intro_text">
             <h2>{{product.title}}</h2>
-            <p></p>
-
         </div>
     </div>
-
-
-
 
     <div class="item_info">
         <div class="product_description">
-        <h2>Описание</h2>
-        <p>{{ product.description }}</p>
+            <h2>Описание</h2>
+            <p>{{ product.description }}</p>
             <p>Цена: {{product.price}}</p>
-            <a href="#" class="myButton">Заказать</a>
-
+            <a href="{% url 'cart' %}" class="myButton cart-add" data-id="{{ product.pk }}">Заказать</a>
         </div>
-    </div>
-</div>
-<div class="wrapper_footer">
-    <div class="footer">
-
-        <div class="footer_circle">
-            <div><hr></div>
-            <div class="contact">
-                <p class="">+7-(999)-999-99-99<br>poof@info.com</p>
-                <a href="https://www.instagram.com/yellow__boat/" class="footer_link">Instagram</a>
-                <a href="https://t.me/djoefrit" class="footer_link">Telegram</a>
-                <a href="https://vk.com/lonep" class="footer_link">Vkontakte</a>
-            </div>
-        </div>
-
-
     </div>
 </div>
 {% endblock %}
