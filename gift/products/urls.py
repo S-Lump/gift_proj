@@ -7,7 +7,8 @@ urlpatterns = [
 
     path('login/', user_login, name='login'),
     path('logout/', user_logout, name='logout'),
-    path('', Home.as_view(), name='home'),
+    path('', home, name='home'),
     path('category/<int:category_id>', get_category, name='category'),
-    path('products/<str:slug>', Product.as_view(), name='products')
+    path('products/<str:slug>', Product.as_view(), name='products'),
+    path('cart/', cart, name='cart')
 ]
